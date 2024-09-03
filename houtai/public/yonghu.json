@@ -1,0 +1,232 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["yonghu"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/yonghuxinxigrzlgl",
+			"name": "yonghuxinxigrzlgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "个人资料管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["yonghu"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/yonghuxinxi_updt2/1",
+					"name": "yonghuxinxi_updt2",
+					"component": "yonghuxinxi/personal/index",
+					"meta": {
+						"title": "修改个人资料",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["yonghu"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/shebeiglygl",
+			"name": "shebeiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "设备管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/shebeixinxi/1",
+					"name": "shebeixinxi",
+					"component": "shebeixinxi/index",
+					"meta": {
+						"title": "设备查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/wangdianyonghugl",
+			"name": "wangdianyonghugl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "网点管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["yonghu"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/wangdianxinxi/1",
+					"name": "wangdianxinxi",
+					"component": "wangdianxinxi/index",
+					"meta": {
+						"title": "网点查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["yonghu"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/yuyueyonghugl",
+			"name": "yuyueyonghugl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "预约管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["yonghu"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/wangdianxinxi_yuyuexinxi/1",
+					"name": "wangdianxinxi_yuyuexinxi",
+					"component": "yuyuexinxi/wangdianxinxi_yuyuexinxi",
+					"meta": {
+						"title": "预约添加",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["yonghu"],
+						"icon": "iconfont icon-caidan"
+					}
+				},
+{
+					"path": "/yuyuexinxi/1",
+					"name": "yuyuexinxi",
+					"component": "yuyuexinxi/index",
+					"meta": {
+						"title": "预约查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["yonghu"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/shequyonghugl",
+			"name": "shequyonghugl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "社区管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["yonghu"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/shequxinxi/1",
+					"name": "shequxinxi",
+					"component": "shequxinxi/index",
+					"meta": {
+						"title": "社区查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["yonghu"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+
+		
+		{
+			"path": "/yuyuexinxiAdd",
+			"name": "yuyuexinxiAdd",
+			"component": "yuyuexinxi/yuyuexinxi_addlbdq",
+			"meta": {
+				"title": "预约添加",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["yonghu"],
+				"icon": "el-icon-school"
+			}
+		},
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["yonghu"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}

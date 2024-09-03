@@ -1,0 +1,425 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/xtyhgl",
+			"name": "xtyhgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "系统用户管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/guanliyuan/1",
+					"name": "guanliyuan",
+					"component": "guanliyuan/index",
+					"meta": {
+						"title": "管理员用户",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/xinwentongzhigl",
+			"name": "xinwentongzhigl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "新闻数据管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/xinwentongzhi/1",
+					"name": "xinwentongzhi",
+					"component": "xinwentongzhi/index",
+					"meta": {
+						"title": "新闻数据设置",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/bhtgl",
+			"name": "bhtgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "变幻图设置",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/bianhuantu/1",
+					"name": "bianhuantu",
+					"component": "bianhuantu/index",
+					"meta": {
+						"title": "变幻图设置",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/liuyanbangl",
+			"name": "liuyanbangl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "留言管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/liuyanban/1",
+					"name": "liuyanban",
+					"component": "liuyanban/index",
+					"meta": {
+						"title": "留言管理",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/yonghuglygl",
+			"name": "yonghuglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "用户管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/yonghuxinxi/1",
+					"name": "yonghuxinxi",
+					"component": "yonghuxinxi/index",
+					"meta": {
+						"title": "用户查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/shebeiglygl",
+			"name": "shebeiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "设备管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/shebeixinxi/1",
+					"name": "shebeixinxi",
+					"component": "shebeixinxi/index",
+					"meta": {
+						"title": "设备查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/leixingglygl",
+			"name": "leixingglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "类型管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/leixingxinxi/1",
+					"name": "leixingxinxi",
+					"component": "leixingxinxi/index",
+					"meta": {
+						"title": "类型查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/beijianglygl",
+			"name": "beijianglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "备件管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/beijianxinxi/1",
+					"name": "beijianxinxi",
+					"component": "beijianxinxi/index",
+					"meta": {
+						"title": "备件查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/wangdianglygl",
+			"name": "wangdianglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "网点管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/wangdianxinxi/1",
+					"name": "wangdianxinxi",
+					"component": "wangdianxinxi/index",
+					"meta": {
+						"title": "网点查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/yuyueglygl",
+			"name": "yuyueglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "预约管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/yuyuexinxi/1",
+					"name": "yuyuexinxi",
+					"component": "yuyuexinxi/index",
+					"meta": {
+						"title": "预约查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/shequglygl",
+			"name": "shequglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "社区管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+{
+					"path": "/shequxinxi/1",
+					"name": "shequxinxi",
+					"component": "shequxinxi/index",
+					"meta": {
+						"title": "社区查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/yuyueglytj",
+			"name": "yuyueglytj",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "预约统计",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/yuyuexinxi_tj_leixingmingcheng/1",
+					"name": "yuyuexinxi_tj_leixingmingcheng",
+					"component": "yuyuexinxi_tj_leixingmingcheng/index",
+					"meta": {
+						"title": "按类型名称统计",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}
